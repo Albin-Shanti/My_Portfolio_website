@@ -586,19 +586,48 @@ h3.my-profession {
     text-align: center;
 }
 
-.service .service-item .service-item-inner .icon .fa {
+.service .service-item .service-item-inner .icon .fa,
+.service .service-item .service-item-inner .icon .fa-brands,
+.service .service-item .service-item-inner .icon .fa-gamepad {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
 
+.service .service-item .service-item-inner .icon .fa-c {
+    font-size: 30px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner .icon .fa-plus, 
+.service .service-item .service-item-inner .icon .fa-hashtag {
+    font-size: 10;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+
+
 .service .service-item .service-item-inner:hover .icon {
     background: var(--skin-color);
 }
 
+.service .service-item .service-item-inner:hover .icon .fa-c {
+    font-size: 20px;
+    color: var(--text-black-900);
+}
+.service .service-item .service-item-inner:hover .icon .fa-plus,
+.service .service-item .service-item-inner:hover .icon .fa-hashtag {
+    font-size: 8px;
+    color: var(--text-black-900);
+}
 
-.service .service-item .service-item-inner:hover .icon .fa {
+
+.service .service-item .service-item-inner:hover .icon .fa,
+.service .service-item .service-item-inner:hover .icon .fa-brands,
+.service .service-item .service-item-inner:hover .icon .fa-gamepad {
     font-size: 25px;
     color: var(--text-black-900);
 }
@@ -606,7 +635,7 @@ h3.my-profession {
 .service .service-item .service-item-inner h4 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: var(--text-black-900);
+    color: var(--skin-color);
     font-weight: 700;
     text-transform: capitalize;
 }
