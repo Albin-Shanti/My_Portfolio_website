@@ -1,0 +1,30 @@
+.aside .t-icon {
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    cursor: pointer;
+    position: fixed;
+    left: 200px;
+    top: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+    display: none;
+}
+
+.aside .t-icon i {
+    color: var(--skin-color); 
+}
+
+@media (max-width:1199px) {
+
+    .aside {
+        transform: translateX(-180px);
+    }
+
+    .aside .t-icon{
+        display: flex;
+    }
+}
