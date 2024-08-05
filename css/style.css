@@ -290,7 +290,7 @@ h3.my-profession {
     width: 80px;
     border-bottom:  10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
+    right: 40px;
     bottom: -30px;
 }
 
@@ -301,7 +301,7 @@ h3.my-profession {
     width: 80px;
     border-top:  10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: 20px;
+    left: 40px;
     top: -30px;
 }
 
@@ -901,6 +901,11 @@ h3.my-profession {
 
     .home .social-icon a{
         top: -90px;
+    }
+
+    .portfolio .portfolio-item-inner:hover{
+        transform: none;
+        box-shadow: none;
     }
 }
 
